@@ -19,7 +19,7 @@ a {
 }
 
 .header-container div {
-    padding: 30px 200px;
+    padding: 30px 250px;
     /* margin: 10px; */
     font-size: 24px;
     font-weight: 900;
@@ -32,7 +32,7 @@ a {
     list-style-type: none;
     margin: 0;
     padding-left: 0;
-    padding-right: 150px;
+    padding-right: 250px;
     padding-top: 10px;
     padding-bottom: 10px;
     gap: 30px;
@@ -45,6 +45,50 @@ a {
 
 .top-image-container {
     flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 250px;
+    background-color: #1F2937;
+}
+
+.top-left-container {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    /* border: 5px solid white; */
+}
+
+.top-title {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.top-contain {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.top-bottom a {
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-size: 18px;
+}
+
+.top-right-image {
+    background-color: #817f7f;
+    /* border: 1px solid white; */
+    width: 500px;
+    height: 200px;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .information-container {
