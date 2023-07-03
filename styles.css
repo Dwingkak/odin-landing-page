@@ -2,6 +2,7 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0;
+    min-height: 100vh;
 }
 
 a {
@@ -40,6 +41,22 @@ a {
 
 .header-container ul li a {
     color: #E5E7EB;
+}
+
+.top-image-container {
+    flex: 1;
+}
+
+.information-container {
+    flex: 1;
+}
+
+.quotes-container {
+    flex: 1;
+}
+
+.action-container {
+    flex: 1;
 }
 
 .footer-container {
