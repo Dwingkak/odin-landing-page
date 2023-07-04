@@ -152,8 +152,35 @@ a {
     align-items: center;
 }
 
+.quotes {
+    display: flex;
+    align-items: center;
+    padding-top: 100px;
+    /* border: 1px solid black; */
+    width: 800px;
+    height: 250px;
+    color: #1F2937;
+    font-size: 36px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.quotes-author-container {
+    /* border: 1px solid black; */
+    width: 750px;
+    font-weight: 900;
+    font-size: 18px;
+    align-self: center;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.quotes-author {
+    padding-bottom: 100px;
+}
+
 .action-container {
     flex: 1 0 auto;
+    background-color: #F9FAF8;
 }
 
 .footer-container {
